@@ -1,0 +1,59 @@
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: white;
+  }
+
+li {
+    float: left;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+li a {
+    display: block;
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: black;
+}
+
+#menu{
+    border-radius: 10px;
+}
+
+
+li a:hover:not(.quadro, .melhores, .curiosidades, .referencias, .home){
+    background-color: rgb(70, 142, 236);
+    color: white;
+    text-align: center;
+}
+
+li a:hover:not(.historia, .melhores, .curiosidades, .referencias, .home){
+    background-color: rgb(70, 142, 236);
+    color: white;
+}
+
+li a:hover:not(.historia, .quadro ,.curiosidades, .referencias, .home){
+    background-color: rgb(70, 142, 236);
+    color: white;
+}
+
+li a:hover:not(.historia, .quadro ,.melhores, .referencias, .home){
+    background-color:   rgb(70, 142, 236);
+    color: white;
+}
+
+li a:hover:not(.historia, .quadro ,.melhores, .curiosidades, .home){
+    background-color: rgb(70, 142, 236);
+    color: white;
+}
+
+li a:hover:not(.historia, .quadro, .melhores, .curiosidades, .referencias){
+    background-color: rgb(70, 142, 236);
+    color: white;
+}
+
+article{
+    text-align: center;
+    margin: 30px 0px 0px 0px;
+}

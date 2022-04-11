@@ -1,0 +1,29 @@
+.formu {
+    border-style: dashed;
+    border-color: #193540;
+    background-color: #6C7D8C;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center; /*superior direita inferior esquerda*/
+}
+
+#rodape{
+    text-align: center;
+    font-size: large;
+    color: #F2C6A0;
+    background-color: #193540;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-color: #F2C6A0;
+    border-radius: 10px;
+    border-width: 3px;
+    width: 190px;
+    margin-left: 10px;
+}
+
+h1{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: #193540;
+}
